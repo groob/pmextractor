@@ -1,0 +1,4163 @@
+[
+  {
+    "identifiers": [
+      "com.apple.security.pkcs12"
+    ],
+    "knob_name": "CertificateKnobSet",
+    "knob_fields": [
+      {
+        "domain": "profileObserver",
+        "dict_type": "function"
+      },
+      {
+        "domain": "displayName",
+        "dict_type": "String",
+        "key": "PayloadDisplayName"
+      },
+      {
+        "domain": "password",
+        "dict_type": "String",
+        "key": "Password"
+      },
+      {
+        "domain": "metaDataObserver",
+        "dict_type": "function"
+      },
+      {
+        "domain": "showCertificates",
+        "dict_type": "function"
+      },
+      {
+        "domain": "showPlaceholder",
+        "dict_type": "function"
+      },
+      {
+        "domain": "certificates",
+        "dict_type": "function"
+      },
+      {
+        "domain": "isRoot",
+        "dict_type": "function"
+      },
+      {
+        "domain": "isIdentity",
+        "dict_type": "function"
+      }
+    ]
+  },
+  {
+    "identifiers": [
+      "com.apple.security.root"
+    ],
+    "knob_name": "CertificateKnobSet",
+    "knob_fields": [
+      {
+        "domain": "profileObserver",
+        "dict_type": "function"
+      },
+      {
+        "domain": "displayName",
+        "dict_type": "String",
+        "key": "PayloadDisplayName"
+      },
+      {
+        "domain": "password",
+        "dict_type": "String",
+        "key": "Password"
+      },
+      {
+        "domain": "metaDataObserver",
+        "dict_type": "function"
+      },
+      {
+        "domain": "showCertificates",
+        "dict_type": "function"
+      },
+      {
+        "domain": "showPlaceholder",
+        "dict_type": "function"
+      },
+      {
+        "domain": "certificates",
+        "dict_type": "function"
+      },
+      {
+        "domain": "isRoot",
+        "dict_type": "function"
+      },
+      {
+        "domain": "isIdentity",
+        "dict_type": "function"
+      }
+    ]
+  },
+  {
+    "identifiers": [
+      "com.apple.security.pkcs1"
+    ],
+    "knob_name": "CertificateKnobSet",
+    "knob_fields": [
+      {
+        "domain": "profileObserver",
+        "dict_type": "function"
+      },
+      {
+        "domain": "displayName",
+        "dict_type": "String",
+        "key": "PayloadDisplayName"
+      },
+      {
+        "domain": "password",
+        "dict_type": "String",
+        "key": "Password"
+      },
+      {
+        "domain": "metaDataObserver",
+        "dict_type": "function"
+      },
+      {
+        "domain": "showCertificates",
+        "dict_type": "function"
+      },
+      {
+        "domain": "showPlaceholder",
+        "dict_type": "function"
+      },
+      {
+        "domain": "certificates",
+        "dict_type": "function"
+      },
+      {
+        "domain": "isRoot",
+        "dict_type": "function"
+      },
+      {
+        "domain": "isIdentity",
+        "dict_type": "function"
+      }
+    ]
+  },
+  {
+    "identifiers": [
+      "com.apple.security.scep"
+    ],
+    "knob_name": "ScepKnobSet",
+    "knob_fields": [
+      {
+        "domain": "profileObserver",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_payloadContent",
+        "dict_type": "Object",
+        "key": "PayloadContent",
+        "default_value": "function"
+      },
+      {
+        "domain": "url",
+        "dict_type": "String",
+        "key": "URL"
+      },
+      {
+        "domain": "name",
+        "dict_type": "String",
+        "key": "Name"
+      },
+      {
+        "domain": "_subject",
+        "dict_type": "Array",
+        "key": "Subject",
+        "default_value": "function"
+      },
+      {
+        "domain": "_subjectAltName",
+        "dict_type": "Object",
+        "key": "Challenge",
+        "default_value": "challenge"
+      },
+      {
+        "domain": "retries",
+        "dict_type": "Number",
+        "key": "Retries",
+        "default_value": "3"
+      },
+      {
+        "domain": "retryDelay",
+        "dict_type": "Number",
+        "key": "RetryDelay",
+        "default_value": "10"
+      },
+      {
+        "domain": "_CertificateRenewalTimeInterval",
+        "dict_type": "Number",
+        "key": "CertificateRenewalTimeInterval",
+        "default_value": "14"
+      },
+      {
+        "domain": "CertificateRenewalTimeInterval",
+        "dict_type": "function"
+      },
+      {
+        "domain": "keysize",
+        "dict_type": "Number",
+        "key": "Keysize"
+      },
+      {
+        "domain": "keyType",
+        "dict_type": "String",
+        "key": "Key_Type",
+        "default_value": "\"RSA\""
+      },
+      {
+        "domain": "keyUsage",
+        "dict_type": "Number",
+        "key": "Key_Usage"
+      },
+      {
+        "domain": "_fingerprint",
+        "dict_type": "String",
+        "key": "CAFingerprint"
+      },
+      {
+        "domain": "fingerprint",
+        "dict_type": "function"
+      },
+      {
+        "domain": "certDisplayName",
+        "dict_type": "function"
+      },
+      {
+        "domain": "subject",
+        "dict_type": "function"
+      },
+      {
+        "domain": "useAsDigitalSignature",
+        "dict_type": "function"
+      },
+      {
+        "domain": "useForKeyEncipherment",
+        "dict_type": "function"
+      },
+      {
+        "domain": "subjectAltName",
+        "dict_type": "function"
+      },
+      {
+        "domain": "subjectAltNameValue",
+        "dict_type": "function"
+      },
+      {
+        "domain": "ntPrincipalName",
+        "dict_type": "function"
+      }
+    ]
+  },
+  {
+    "identifiers": [
+      "com.apple.webClip.managed"
+    ],
+    "knob_name": "WebClipKnobSet",
+    "knob_fields": [
+      {
+        "domain": "url",
+        "dict_type": "String",
+        "key": "URL"
+      },
+      {
+        "domain": "label",
+        "dict_type": "String",
+        "key": "Label"
+      },
+      {
+        "domain": "_icon",
+        "dict_type": "String",
+        "key": "Icon"
+      },
+      {
+        "domain": "isRemovable",
+        "dict_type": "Boolean",
+        "key": "IsRemovable",
+        "default_value": "YES"
+      },
+      {
+        "domain": "precomposed",
+        "dict_type": "Boolean",
+        "key": "Precomposed"
+      },
+      {
+        "domain": "fullScreen",
+        "dict_type": "Boolean",
+        "key": "FullScreen"
+      },
+      {
+        "domain": "icon",
+        "dict_type": "function"
+      },
+      {
+        "domain": "idDidChange",
+        "dict_type": "function"
+      },
+      {
+        "domain": "idReallyDidChange",
+        "dict_type": "function"
+      }
+    ]
+  },
+  {
+    "identifiers": [
+      "com.apple.applicationaccess"
+    ],
+    "knob_name": "RestrictionsKnobSet",
+    "knob_fields": [
+      {
+        "domain": "_allowAppInstallation",
+        "dict_type": "Boolean",
+        "key": "allowAppInstallation",
+        "default_value": "YES"
+      },
+      {
+        "domain": "allowAppInstallation",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_allowUIAppInstallation",
+        "dict_type": "Boolean",
+        "key": "allowUIAppInstallation",
+        "default_value": "YES"
+      },
+      {
+        "domain": "allowUIAppInstallation",
+        "dict_type": "function"
+      },
+      {
+        "domain": "allowAutomaticAppDownloads",
+        "dict_type": "Boolean",
+        "key": "allowAutomaticAppDownloads",
+        "default_value": "YES"
+      },
+      {
+        "domain": "_allowCamera",
+        "dict_type": "Boolean",
+        "key": "allowCamera",
+        "default_value": "YES"
+      },
+      {
+        "domain": "allowCamera",
+        "dict_type": "function"
+      },
+      {
+        "domain": "allowVideoConferencing",
+        "dict_type": "Boolean",
+        "key": "allowVideoConferencing",
+        "default_value": "YES"
+      },
+      {
+        "domain": "allowExplicitContent",
+        "dict_type": "Boolean",
+        "key": "allowExplicitContent",
+        "default_value": "YES"
+      },
+      {
+        "domain": "allowScreenShot",
+        "dict_type": "Boolean",
+        "key": "allowScreenShot",
+        "default_value": "YES"
+      },
+      {
+        "domain": "allowRemoteScreenObservation",
+        "dict_type": "Boolean",
+        "key": "allowRemoteScreenObservation",
+        "default_value": "YES"
+      },
+      {
+        "domain": "allowWallpaperModification",
+        "dict_type": "Boolean",
+        "key": "allowWallpaperModification",
+        "default_value": "YES"
+      },
+      {
+        "domain": "allowDeviceNameModification",
+        "dict_type": "Boolean",
+        "key": "allowDeviceNameModification",
+        "default_value": "YES"
+      },
+      {
+        "domain": "allowiTunes",
+        "dict_type": "Boolean",
+        "key": "allowiTunes",
+        "default_value": "YES"
+      },
+      {
+        "domain": "allowVoiceDialing",
+        "dict_type": "Boolean",
+        "key": "allowVoiceDialing",
+        "default_value": "YES"
+      },
+      {
+        "domain": "allowMultiplayerGaming",
+        "dict_type": "Boolean",
+        "key": "allowMultiplayerGaming",
+        "default_value": "YES"
+      },
+      {
+        "domain": "allowAddingGameCenterFriends",
+        "dict_type": "Boolean",
+        "key": "allowAddingGameCenterFriends",
+        "default_value": "YES"
+      },
+      {
+        "domain": "allowGlobalBackgroundFetchWhenRoaming",
+        "dict_type": "Boolean",
+        "key": "allowGlobalBackgroundFetchWhenRoaming",
+        "default_value": "YES"
+      },
+      {
+        "domain": "allowLocationServices",
+        "dict_type": "Boolean",
+        "key": "allowLocationServices"
+      },
+      {
+        "domain": "forceEncryptedBackup",
+        "dict_type": "Boolean",
+        "key": "forceEncryptedBackup",
+        "default_value": "NO"
+      },
+      {
+        "domain": "forceContentProtection",
+        "dict_type": "Boolean",
+        "key": "forceContentProtection"
+      },
+      {
+        "domain": "_forceAirPlayOutgoingRequestsPairingPassword",
+        "dict_type": "Boolean",
+        "key": "forceAirPlayOutgoingRequestsPairingPassword",
+        "default_value": "NO"
+      },
+      {
+        "domain": "_forceAirPlayIncomingRequestsPairingPassword",
+        "dict_type": "Boolean",
+        "key": "forceAirPlayIncomingRequestsPairingPassword",
+        "default_value": "NO"
+      },
+      {
+        "domain": "forceAirplayPairing",
+        "dict_type": "function"
+      },
+      {
+        "domain": "allowPairedWatch",
+        "dict_type": "Boolean",
+        "key": "allowPairedWatch",
+        "default_value": "YES"
+      },
+      {
+        "domain": "forceWatchWristDetection",
+        "dict_type": "Boolean",
+        "key": "forceWatchWristDetection",
+        "default_value": "NO"
+      },
+      {
+        "domain": "allowPredictiveKeyboard",
+        "dict_type": "Boolean",
+        "key": "allowPredictiveKeyboard",
+        "default_value": "YES"
+      },
+      {
+        "domain": "allowAutoCorrection",
+        "dict_type": "Boolean",
+        "key": "allowAutoCorrection",
+        "default_value": "YES"
+      },
+      {
+        "domain": "allowSpellCheck",
+        "dict_type": "Boolean",
+        "key": "allowSpellCheck",
+        "default_value": "YES"
+      },
+      {
+        "domain": "allowKeyboardShortcuts",
+        "dict_type": "Boolean",
+        "key": "allowKeyboardShortcuts",
+        "default_value": "YES"
+      },
+      {
+        "domain": "allowDefine",
+        "dict_type": "Boolean",
+        "key": "allowDefinitionLookup",
+        "default_value": "YES"
+      },
+      {
+        "domain": "_allowSafari",
+        "dict_type": "Boolean",
+        "key": "allowSafari",
+        "default_value": "YES"
+      },
+      {
+        "domain": "allowSafari",
+        "dict_type": "function"
+      },
+      {
+        "domain": "safariAllowAutoFill",
+        "dict_type": "Boolean",
+        "key": "safariAllowAutoFill",
+        "default_value": "YES"
+      },
+      {
+        "domain": "safariForceFraudWarning",
+        "dict_type": "Boolean",
+        "key": "safariForceFraudWarning",
+        "default_value": "NO"
+      },
+      {
+        "domain": "safariAllowJavaScript",
+        "dict_type": "Boolean",
+        "key": "safariAllowJavaScript",
+        "default_value": "YES"
+      },
+      {
+        "domain": "_safariAllowPopups",
+        "dict_type": "Boolean",
+        "key": "safariAllowPopups",
+        "default_value": "YES"
+      },
+      {
+        "domain": "blockPopups",
+        "dict_type": "function"
+      },
+      {
+        "domain": "safariAcceptCookies",
+        "dict_type": "Number",
+        "key": "safariAcceptCookies",
+        "default_value": "2"
+      },
+      {
+        "domain": "allowInAppPurchases",
+        "dict_type": "Boolean",
+        "key": "allowInAppPurchases",
+        "default_value": "YES"
+      },
+      {
+        "domain": "_ratingRegion",
+        "dict_type": "String",
+        "key": "ratingRegion",
+        "default_value": "\"us\""
+      },
+      {
+        "domain": "ratingMovies",
+        "dict_type": "Number",
+        "key": "ratingMovies",
+        "default_value": "1e3"
+      },
+      {
+        "domain": "ratingTVShows",
+        "dict_type": "Number",
+        "key": "ratingTVShows",
+        "default_value": "1e3"
+      },
+      {
+        "domain": "ratingApps",
+        "dict_type": "Number",
+        "key": "ratingApps",
+        "default_value": "1e3"
+      },
+      {
+        "domain": "forceITunesPassword",
+        "dict_type": "Boolean",
+        "key": "forceITunesStorePasswordEntry",
+        "default_value": "NO"
+      },
+      {
+        "domain": "allowUntrustedTLSPrompt",
+        "dict_type": "Boolean",
+        "key": "allowUntrustedTLSPrompt",
+        "default_value": "YES"
+      },
+      {
+        "domain": "allowOTAPKIUpdates",
+        "dict_type": "Boolean",
+        "key": "allowOTAPKIUpdates",
+        "default_value": "YES"
+      },
+      {
+        "domain": "allowEnterpriseAppTrust",
+        "dict_type": "Boolean",
+        "key": "allowEnterpriseAppTrust",
+        "default_value": "YES"
+      },
+      {
+        "domain": "allowEnablingRestrictions",
+        "dict_type": "Boolean",
+        "key": "allowEnablingRestrictions",
+        "default_value": "YES"
+      },
+      {
+        "domain": "_allowAssistant",
+        "dict_type": "Boolean",
+        "key": "allowAssistant",
+        "default_value": "YES"
+      },
+      {
+        "domain": "allowAssistant",
+        "dict_type": "function"
+      },
+      {
+        "domain": "allowAssistantWhileLocked",
+        "dict_type": "Boolean",
+        "key": "allowAssistantWhileLocked",
+        "default_value": "YES"
+      },
+      {
+        "domain": "forceAssistantProfanityFilter",
+        "dict_type": "Boolean",
+        "key": "forceAssistantProfanityFilter",
+        "default_value": "NO"
+      },
+      {
+        "domain": "allowCloudBackup",
+        "dict_type": "Boolean",
+        "key": "allowCloudBackup",
+        "default_value": "YES"
+      },
+      {
+        "domain": "allowPhotoStream",
+        "dict_type": "Boolean",
+        "key": "allowPhotoStream",
+        "default_value": "YES"
+      },
+      {
+        "domain": "allowCloudPhotoLibrary",
+        "dict_type": "Boolean",
+        "key": "allowCloudPhotoLibrary",
+        "default_value": "YES"
+      },
+      {
+        "domain": "allowCloudDocumentSync",
+        "dict_type": "Boolean",
+        "key": "allowCloudDocumentSync",
+        "default_value": "YES"
+      },
+      {
+        "domain": "allowCloudKeychainSync",
+        "dict_type": "Boolean",
+        "key": "allowCloudKeychainSync",
+        "default_value": "YES"
+      },
+      {
+        "domain": "allowManagedAppsCloudSync",
+        "dict_type": "Boolean",
+        "key": "allowManagedAppsCloudSync",
+        "default_value": "YES"
+      },
+      {
+        "domain": "allowAppRemoval",
+        "dict_type": "Boolean",
+        "key": "allowAppRemoval",
+        "default_value": "YES"
+      },
+      {
+        "domain": "ratingRegion",
+        "dict_type": "function"
+      },
+      {
+        "domain": "allowBookstore",
+        "dict_type": "Boolean",
+        "key": "allowBookstore",
+        "default_value": "YES"
+      },
+      {
+        "domain": "allowBookstoreErotica",
+        "dict_type": "Boolean",
+        "key": "allowBookstoreErotica",
+        "default_value": "YES"
+      },
+      {
+        "domain": "allowPodcasts",
+        "dict_type": "Boolean",
+        "key": "allowPodcasts",
+        "default_value": "YES"
+      },
+      {
+        "domain": "allowSharedStream",
+        "dict_type": "Boolean",
+        "key": "allowSharedStream",
+        "default_value": "YES"
+      },
+      {
+        "domain": "allowPassbookWhileLocked",
+        "dict_type": "Boolean",
+        "key": "allowPassbookWhileLocked",
+        "default_value": "YES"
+      },
+      {
+        "domain": "_allowGameCenter",
+        "dict_type": "Boolean",
+        "key": "allowGameCenter",
+        "default_value": "YES"
+      },
+      {
+        "domain": "allowGameCenter",
+        "dict_type": "function"
+      },
+      {
+        "domain": "allowUIConfigurationProfileInstallation",
+        "dict_type": "Boolean",
+        "key": "allowUIConfigurationProfileInstallation",
+        "default_value": "YES"
+      },
+      {
+        "domain": "allowChat",
+        "dict_type": "Boolean",
+        "key": "allowChat",
+        "default_value": "YES"
+      },
+      {
+        "domain": "allowMusicService",
+        "dict_type": "Boolean",
+        "key": "allowMusicService",
+        "default_value": "YES"
+      },
+      {
+        "domain": "allowRadioService",
+        "dict_type": "Boolean",
+        "key": "allowRadioService",
+        "default_value": "YES"
+      },
+      {
+        "domain": "allowNews",
+        "dict_type": "Boolean",
+        "key": "allowNews",
+        "default_value": "YES"
+      },
+      {
+        "domain": "allowAccountModification",
+        "dict_type": "Boolean",
+        "key": "allowAccountModification",
+        "default_value": "YES"
+      },
+      {
+        "domain": "allowFindMyFriendsModification",
+        "dict_type": "Boolean",
+        "key": "allowFindMyFriendsModification",
+        "default_value": "YES"
+      },
+      {
+        "domain": "allowHostPairing",
+        "dict_type": "Boolean",
+        "key": "allowHostPairing",
+        "default_value": "YES"
+      },
+      {
+        "domain": "allowAppCellularDataModification",
+        "dict_type": "Boolean",
+        "key": "allowAppCellularDataModification",
+        "default_value": "YES"
+      },
+      {
+        "domain": "allowOpenFromUnmanagedToManaged",
+        "dict_type": "Boolean",
+        "key": "allowOpenFromUnmanagedToManaged",
+        "default_value": "YES"
+      },
+      {
+        "domain": "forceAirDropUnmanaged",
+        "dict_type": "Boolean",
+        "key": "forceAirDropUnmanaged",
+        "default_value": "NO"
+      },
+      {
+        "domain": "allowOpenFromManagedToUnmanaged",
+        "dict_type": "Boolean",
+        "key": "allowOpenFromManagedToUnmanaged",
+        "default_value": "YES"
+      },
+      {
+        "domain": "allowActivityContinuation",
+        "dict_type": "Boolean",
+        "key": "allowActivityContinuation",
+        "default_value": "YES"
+      },
+      {
+        "domain": "allowSpotlightInternetResults",
+        "dict_type": "Boolean",
+        "key": "allowSpotlightInternetResults",
+        "default_value": "YES"
+      },
+      {
+        "domain": "allowLockScreenControlCenter",
+        "dict_type": "Boolean",
+        "key": "allowLockScreenControlCenter",
+        "default_value": "YES"
+      },
+      {
+        "domain": "allowLockScreenNotificationsView",
+        "dict_type": "Boolean",
+        "key": "allowLockScreenNotificationsView",
+        "default_value": "YES"
+      },
+      {
+        "domain": "allowLockScreenTodayView",
+        "dict_type": "Boolean",
+        "key": "allowLockScreenTodayView",
+        "default_value": "YES"
+      },
+      {
+        "domain": "allowAssistantUserGeneratedContent",
+        "dict_type": "Boolean",
+        "key": "allowAssistantUserGeneratedContent",
+        "default_value": "YES"
+      },
+      {
+        "domain": "allowAirDrop",
+        "dict_type": "Boolean",
+        "key": "allowAirDrop",
+        "default_value": "YES"
+      },
+      {
+        "domain": "forceLimitAdTracking",
+        "dict_type": "Boolean",
+        "key": "forceLimitAdTracking",
+        "default_value": "NO"
+      },
+      {
+        "domain": "allowEraseContentAndSettings",
+        "dict_type": "Boolean",
+        "key": "allowEraseContentAndSettings",
+        "default_value": "YES"
+      },
+      {
+        "domain": "allowFingerprintForUnlock",
+        "dict_type": "Boolean",
+        "key": "allowFingerprintForUnlock",
+        "default_value": "YES"
+      },
+      {
+        "domain": "allowNotificationsModification",
+        "dict_type": "Boolean",
+        "key": "allowNotificationsModification",
+        "default_value": "YES"
+      },
+      {
+        "domain": "_allowPasscodeModification",
+        "dict_type": "Boolean",
+        "key": "allowPasscodeModification",
+        "default_value": "YES"
+      },
+      {
+        "domain": "allowPasscodeModification",
+        "dict_type": "function"
+      },
+      {
+        "domain": "allowFingerprintModification",
+        "dict_type": "Boolean",
+        "key": "allowFingerprintModification",
+        "default_value": "YES"
+      },
+      {
+        "domain": "allowEnterpriseBookMetadataSync",
+        "dict_type": "Boolean",
+        "key": "allowEnterpriseBookMetadataSync",
+        "default_value": "YES"
+      },
+      {
+        "domain": "allowEnterpriseBookBackup",
+        "dict_type": "Boolean",
+        "key": "allowEnterpriseBookBackup",
+        "default_value": "YES"
+      },
+      {
+        "domain": "removeSelectedApplicationFromAutonomousSingleAppModeList",
+        "dict_type": "function"
+      },
+      {
+        "domain": "autonomousSingleAppModePermittedAppIDs",
+        "dict_type": "Array",
+        "key": "autonomousSingleAppModePermittedAppIDs",
+        "default_value": "function"
+      },
+      {
+        "domain": "_appUsageRestrictionType",
+        "dict_type": "String",
+        "key": "internal_use_flag_app_usage_restriction_type",
+        "default_value": "\"allow_all_apps\""
+      },
+      {
+        "domain": "appUsageRestrictionType",
+        "dict_type": "function"
+      },
+      {
+        "domain": "blackListedAppBundleIDs",
+        "dict_type": "Array",
+        "key": "blacklistedAppBundleIDs"
+      },
+      {
+        "domain": "blackListedAppBundleIDsContent",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_updateBlackListedBundleIDs",
+        "dict_type": "function"
+      },
+      {
+        "domain": "addBlackListedBundleID",
+        "dict_type": "function"
+      },
+      {
+        "domain": "removeBlackListedBundleID",
+        "dict_type": "function"
+      },
+      {
+        "domain": "whitelistedAppBundleIDs",
+        "dict_type": "Array",
+        "key": "whitelistedAppBundleIDs"
+      },
+      {
+        "domain": "whitelistedAppBundleIDsContent",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_updateWhitelistedBundleIDs",
+        "dict_type": "function"
+      },
+      {
+        "domain": "addWhitelistedBundleID",
+        "dict_type": "function"
+      },
+      {
+        "domain": "removeWhitelistedBundleID",
+        "dict_type": "function"
+      },
+      {
+        "domain": "showWifi",
+        "dict_type": "function"
+      },
+      {
+        "domain": "showHotspot2",
+        "dict_type": "function"
+      },
+      {
+        "domain": "action",
+        "dict_type": "function"
+      },
+      {
+        "domain": "addMCCAndMNC",
+        "dict_type": "function"
+      },
+      {
+        "domain": "action",
+        "dict_type": "function"
+      },
+      {
+        "domain": "isVisible",
+        "dict_type": "function"
+      },
+      {
+        "domain": "isVisible",
+        "dict_type": "function"
+      },
+      {
+        "domain": "isVisible",
+        "dict_type": "function"
+      },
+      {
+        "domain": "showPersonalSettings",
+        "dict_type": "function"
+      },
+      {
+        "domain": "showEnterpriseSettings",
+        "dict_type": "function"
+      },
+      {
+        "domain": "showProtocols",
+        "dict_type": "function"
+      },
+      {
+        "domain": "showTrust",
+        "dict_type": "function"
+      },
+      {
+        "domain": "isEnabled",
+        "dict_type": "function"
+      },
+      {
+        "domain": "isEnabled",
+        "dict_type": "function"
+      },
+      {
+        "domain": "isVisible",
+        "dict_type": "function"
+      },
+      {
+        "domain": "isEnabled",
+        "dict_type": "function"
+      },
+      {
+        "domain": "isEnabled",
+        "dict_type": "function"
+      },
+      {
+        "domain": "isVisible",
+        "dict_type": "function"
+      },
+      {
+        "domain": "isVisible",
+        "dict_type": "function"
+      },
+      {
+        "domain": "isEnabled",
+        "dict_type": "function"
+      },
+      {
+        "domain": "fieldHint",
+        "dict_type": "function"
+      },
+      {
+        "domain": "isVisible",
+        "dict_type": "function"
+      },
+      {
+        "domain": "isEnabled",
+        "dict_type": "function"
+      },
+      {
+        "domain": "isVisible",
+        "dict_type": "function"
+      },
+      {
+        "domain": "isEnabled",
+        "dict_type": "function"
+      },
+      {
+        "domain": "fieldHint",
+        "dict_type": "function"
+      },
+      {
+        "domain": "isVisible",
+        "dict_type": "function"
+      },
+      {
+        "domain": "isEnabled",
+        "dict_type": "function"
+      },
+      {
+        "domain": "isVisible",
+        "dict_type": "function"
+      },
+      {
+        "domain": "isVisible",
+        "dict_type": "function"
+      },
+      {
+        "domain": "isVisible",
+        "dict_type": "function"
+      },
+      {
+        "domain": "isVisible",
+        "dict_type": "function"
+      },
+      {
+        "domain": "isVisible",
+        "dict_type": "function"
+      },
+      {
+        "domain": "isVisible",
+        "dict_type": "function"
+      },
+      {
+        "domain": "certsHeightObserver",
+        "dict_type": "function"
+      },
+      {
+        "domain": "isVisible",
+        "dict_type": "function"
+      },
+      {
+        "domain": "isVisible",
+        "dict_type": "function"
+      },
+      {
+        "domain": "validate",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_interfaceType",
+        "dict_type": "String",
+        "key": "Interface"
+      },
+      {
+        "domain": "interfaceType",
+        "dict_type": "function"
+      },
+      {
+        "domain": "ssid",
+        "dict_type": "String",
+        "key": "SSID_STR"
+      },
+      {
+        "domain": "ssidObserver",
+        "dict_type": "function"
+      },
+      {
+        "domain": "isHiddenNetwork",
+        "dict_type": "Boolean",
+        "key": "HIDDEN_NETWORK",
+        "default_value": "NO"
+      },
+      {
+        "domain": "AutoJoin",
+        "dict_type": "Boolean",
+        "key": "AutoJoin",
+        "default_value": "YES"
+      },
+      {
+        "domain": "password",
+        "dict_type": "String",
+        "key": "Password"
+      },
+      {
+        "domain": "_proxyType",
+        "dict_type": "String",
+        "key": "ProxyType",
+        "default_value": "\"None\""
+      },
+      {
+        "domain": "proxyType",
+        "dict_type": "function"
+      },
+      {
+        "domain": "isManualProxy",
+        "dict_type": "function"
+      },
+      {
+        "domain": "isAutomaticProxy",
+        "dict_type": "function"
+      },
+      {
+        "domain": "proxyServer",
+        "dict_type": "String",
+        "key": "ProxyServer"
+      },
+      {
+        "domain": "proxyServerPort",
+        "dict_type": "Number",
+        "key": "ProxyServerPort"
+      },
+      {
+        "domain": "proxyUsername",
+        "dict_type": "String",
+        "key": "ProxyUsername"
+      },
+      {
+        "domain": "proxyPassword",
+        "dict_type": "String",
+        "key": "ProxyPassword"
+      },
+      {
+        "domain": "proxyPACURL",
+        "dict_type": "String",
+        "key": "ProxyPACURL"
+      },
+      {
+        "domain": "proxyPACFallbackAllowed",
+        "dict_type": "Boolean",
+        "key": "ProxyPACFallbackAllowed"
+      },
+      {
+        "domain": "_EncryptionType",
+        "dict_type": "String",
+        "key": "EncryptionType",
+        "default_value": "\"Any\""
+      },
+      {
+        "domain": "securityType",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_setupModes",
+        "dict_type": "Array",
+        "key": "SetupModes",
+        "default_value": "function"
+      },
+      {
+        "domain": "system",
+        "dict_type": "function"
+      },
+      {
+        "domain": "loginWindow",
+        "dict_type": "function"
+      },
+      {
+        "domain": "updateSystemMode",
+        "dict_type": "function"
+      },
+      {
+        "domain": "allowSystemMode",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_EAPClientConfiguration",
+        "dict_type": "Object",
+        "key": "EAPClientConfiguration"
+      },
+      {
+        "domain": "protocolEapFastUsePac",
+        "dict_type": "function"
+      },
+      {
+        "domain": "protocolEapFastProvisionPac",
+        "dict_type": "function"
+      },
+      {
+        "domain": "protocolEapFastProvisionPacAnonymously",
+        "dict_type": "function"
+      },
+      {
+        "domain": "protocolTtlsInnerAuthentication",
+        "dict_type": "function"
+      },
+      {
+        "domain": "useTwoFactorAuth",
+        "dict_type": "function"
+      },
+      {
+        "domain": "authenticationUsername",
+        "dict_type": "function"
+      },
+      {
+        "domain": "authenticationPassword",
+        "dict_type": "function"
+      },
+      {
+        "domain": "authenticationOuterIdentity",
+        "dict_type": "function"
+      },
+      {
+        "domain": "authenticationPerConnectionPassword",
+        "dict_type": "function"
+      },
+      {
+        "domain": "allowTwoRands",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_AcceptEAPTypes",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_authenticationIdentityCertificate",
+        "dict_type": "String",
+        "key": "PayloadCertificateUUID",
+        "default_value": "null"
+      },
+      {
+        "domain": "authenticationIdentityCertificate",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_trustedCertificates",
+        "dict_type": "function"
+      },
+      {
+        "domain": "trustedServerCertificateNames",
+        "dict_type": "function"
+      },
+      {
+        "domain": "trustedCertificatesContent",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_trustedCertificatesDidChange",
+        "dict_type": "function"
+      },
+      {
+        "domain": "useDirectory",
+        "dict_type": "function"
+      },
+      {
+        "domain": "authenticationMethod",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_authenticationMethod",
+        "dict_type": "String",
+        "key": "AuthenticationMethod",
+        "default_value": "\"\""
+      },
+      {
+        "domain": "directoryDomain",
+        "dict_type": "String",
+        "key": "DirectoryDomain"
+      },
+      {
+        "domain": "systemModeCredentialsSource",
+        "dict_type": "function"
+      },
+      {
+        "domain": "toggleProtocol",
+        "dict_type": "function"
+      },
+      {
+        "domain": "protocolTlsSupported",
+        "dict_type": "function"
+      },
+      {
+        "domain": "protocolTtlsSupported",
+        "dict_type": "function"
+      },
+      {
+        "domain": "protocolLeapSupported",
+        "dict_type": "function"
+      },
+      {
+        "domain": "protocolPeapSupported",
+        "dict_type": "function"
+      },
+      {
+        "domain": "protocolEapFastSupported",
+        "dict_type": "function"
+      },
+      {
+        "domain": "protocolEapSimSupported",
+        "dict_type": "function"
+      },
+      {
+        "domain": "protocolEapAkaSupported",
+        "dict_type": "function"
+      },
+      {
+        "domain": "isHotspot",
+        "dict_type": "Boolean",
+        "key": "IsHotspot",
+        "default_value": "1"
+      },
+      {
+        "domain": "displayedOperatorName",
+        "dict_type": "String",
+        "key": "DisplayedOperatorName"
+      },
+      {
+        "domain": "domainName",
+        "dict_type": "String",
+        "key": "DomainName"
+      },
+      {
+        "domain": "roamingConsortiumOIs",
+        "dict_type": "Array",
+        "key": "RoamingConsortiumOIs"
+      },
+      {
+        "domain": "nAIRealmNames",
+        "dict_type": "Array",
+        "key": "NAIRealmNames"
+      },
+      {
+        "domain": "mCCAndMNCs",
+        "dict_type": "Array",
+        "key": "MCCAndMNCs",
+        "default_value": "function"
+      },
+      {
+        "domain": "",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_zeroPad",
+        "dict_type": "function"
+      },
+      {
+        "domain": "from",
+        "dict_type": "function"
+      },
+      {
+        "domain": "hessid",
+        "dict_type": "String",
+        "key": "HESSID"
+      },
+      {
+        "domain": "roamingEnabled",
+        "dict_type": "Boolean",
+        "key": "ServiceProviderRoamingEnabled"
+      },
+      {
+        "domain": "shouldShowUsername",
+        "dict_type": "function"
+      },
+      {
+        "domain": "shouldShowPassword",
+        "dict_type": "function"
+      },
+      {
+        "domain": "shouldShowCertificate",
+        "dict_type": "function"
+      },
+      {
+        "domain": "shouldShowDirectory",
+        "dict_type": "function"
+      },
+      {
+        "domain": "shouldShowTwoFactorAuth",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_CertsHeight",
+        "dict_type": "function"
+      }
+    ]
+  },
+  {
+    "identifiers": [
+      "com.apple.caldav.account"
+    ],
+    "knob_name": "CalDavKnobSet",
+    "knob_fields": [
+      {
+        "domain": "accountDescription",
+        "dict_type": "String",
+        "key": "CalDAVAccountDescription",
+        "default_value": "\"_generic_string_My CalDAV Account\""
+      },
+      {
+        "domain": "hostName",
+        "dict_type": "String",
+        "key": "CalDAVHostName"
+      },
+      {
+        "domain": "portNumber",
+        "dict_type": "Number",
+        "key": "CalDAVPort",
+        "default_value": "8443"
+      },
+      {
+        "domain": "principalUrl",
+        "dict_type": "String",
+        "key": "CalDAVPrincipalURL"
+      },
+      {
+        "domain": "realUserName",
+        "dict_type": "String",
+        "key": "CalDAVUsername"
+      },
+      {
+        "domain": "userName",
+        "dict_type": "function"
+      },
+      {
+        "domain": "realPassword",
+        "dict_type": "String",
+        "key": "CalDAVPassword"
+      },
+      {
+        "domain": "password",
+        "dict_type": "function"
+      },
+      {
+        "domain": "useSsl",
+        "dict_type": "Boolean",
+        "key": "CalDAVUseSSL",
+        "default_value": "YES"
+      }
+    ]
+  },
+  {
+    "identifiers": [
+      "com.apple.carddav.account"
+    ],
+    "knob_name": "CardDavKnobSet",
+    "knob_fields": [
+      {
+        "domain": "accountDescription",
+        "dict_type": "String",
+        "key": "CardDAVAccountDescription",
+        "default_value": "\"_generic_string_My CardDAV Account\""
+      },
+      {
+        "domain": "hostName",
+        "dict_type": "String",
+        "key": "CardDAVHostName"
+      },
+      {
+        "domain": "portNumber",
+        "dict_type": "Number",
+        "key": "CardDAVPort",
+        "default_value": "8843"
+      },
+      {
+        "domain": "principalUrl",
+        "dict_type": "String",
+        "key": "CardDAVPrincipalURL"
+      },
+      {
+        "domain": "realUserName",
+        "dict_type": "String",
+        "key": "CardDAVUsername"
+      },
+      {
+        "domain": "userName",
+        "dict_type": "function"
+      },
+      {
+        "domain": "realPassword",
+        "dict_type": "String",
+        "key": "CardDAVPassword"
+      },
+      {
+        "domain": "password",
+        "dict_type": "function"
+      },
+      {
+        "domain": "useSsl",
+        "dict_type": "Boolean",
+        "key": "CardDAVUseSSL",
+        "default_value": "YES"
+      }
+    ]
+  },
+  {
+    "identifiers": [
+      "com.apple.mail.managed"
+    ],
+    "knob_name": "EmailKnobSet",
+    "knob_fields": [
+      {
+        "domain": "accountDescription",
+        "dict_type": "String",
+        "key": "EmailAccountDescription",
+        "default_value": "\"_generic_string_Company Account\""
+      },
+      {
+        "domain": "accountType",
+        "dict_type": "String",
+        "key": "EmailAccountType"
+      },
+      {
+        "domain": "accountIMAPPrefix",
+        "dict_type": "String",
+        "key": "IncomingMailServerIMAPPathPrefix"
+      },
+      {
+        "domain": "realAccountName",
+        "dict_type": "String",
+        "key": "EmailAccountName"
+      },
+      {
+        "domain": "accountName",
+        "dict_type": "function"
+      },
+      {
+        "domain": "realEmailAddress",
+        "dict_type": "String",
+        "key": "EmailAddress"
+      },
+      {
+        "domain": "emailAddress",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_disableMailRecentsSyncing",
+        "dict_type": "Boolean",
+        "key": "disableMailRecentsSyncing",
+        "default_value": "NO"
+      },
+      {
+        "domain": "allowRecentsSyncing",
+        "dict_type": "function"
+      },
+      {
+        "domain": "allowMailDrop",
+        "dict_type": "Boolean",
+        "key": "allowMailDrop",
+        "default_value": "NO"
+      },
+      {
+        "domain": "_preventMove",
+        "dict_type": "Boolean",
+        "key": "PreventMove",
+        "default_value": "NO"
+      },
+      {
+        "domain": "allowMove",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_preventAppSheet",
+        "dict_type": "Boolean",
+        "key": "PreventAppSheet",
+        "default_value": "NO"
+      },
+      {
+        "domain": "allowAppSheet",
+        "dict_type": "function"
+      },
+      {
+        "domain": "enableSMIME",
+        "dict_type": "Boolean",
+        "key": "SMIMEEnabled",
+        "default_value": "NO"
+      },
+      {
+        "domain": "_sMIMESigningCertificateUUID",
+        "dict_type": "String",
+        "key": "SMIMESigningCertificateUUID"
+      },
+      {
+        "domain": "sMIMESigningCertificateUUID",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_sMIMEEncryptionCertificateUUID",
+        "dict_type": "String",
+        "key": "SMIMEEncryptionCertificateUUID"
+      },
+      {
+        "domain": "sMIMEEncryptionCertificateUUID",
+        "dict_type": "function"
+      },
+      {
+        "domain": "enablePerMessageSMIMESwitch",
+        "dict_type": "Boolean",
+        "key": "SMIMEEnablePerMessageSwitch",
+        "default_value": "NO"
+      },
+      {
+        "domain": "incomingMailServer",
+        "dict_type": "String",
+        "key": "IncomingMailServerHostName"
+      },
+      {
+        "domain": "incomingMailServerPort",
+        "dict_type": "Number",
+        "key": "IncomingMailServerPortNumber",
+        "default_value": "993"
+      },
+      {
+        "domain": "realIncomingMailUserName",
+        "dict_type": "String",
+        "key": "IncomingMailServerUsername"
+      },
+      {
+        "domain": "incomingMailUserName",
+        "dict_type": "function"
+      },
+      {
+        "domain": "realIncomingMailPassword",
+        "dict_type": "String",
+        "key": "IncomingPassword"
+      },
+      {
+        "domain": "incomingMailPassword",
+        "dict_type": "function"
+      },
+      {
+        "domain": "incomingMailServerAuthentication",
+        "dict_type": "String",
+        "key": "IncomingMailServerAuthentication",
+        "default_value": "\"EmailAuthPassword\""
+      },
+      {
+        "domain": "incomingMailUseSSL",
+        "dict_type": "Boolean",
+        "key": "IncomingMailServerUseSSL",
+        "default_value": "YES"
+      },
+      {
+        "domain": "outgoingMailServer",
+        "dict_type": "String",
+        "key": "OutgoingMailServerHostName"
+      },
+      {
+        "domain": "outgoingMailServerPort",
+        "dict_type": "Number",
+        "key": "OutgoingMailServerPortNumber",
+        "default_value": "587"
+      },
+      {
+        "domain": "realOutgoingMailUserName",
+        "dict_type": "String",
+        "key": "OutgoingMailServerUsername"
+      },
+      {
+        "domain": "outgoingMailUserName",
+        "dict_type": "function"
+      },
+      {
+        "domain": "realOutgoingMailPassword",
+        "dict_type": "String",
+        "key": "OutgoingPassword"
+      },
+      {
+        "domain": "outgoingMailPassword",
+        "dict_type": "function"
+      },
+      {
+        "domain": "outgoingMailPasswordSameAsIncoming",
+        "dict_type": "Boolean",
+        "key": "OutgoingPasswordSameAsIncomingPassword"
+      },
+      {
+        "domain": "outgoingMailServerAuthentication",
+        "dict_type": "String",
+        "key": "OutgoingMailServerAuthentication",
+        "default_value": "\"EmailAuthPassword\""
+      },
+      {
+        "domain": "outgoingMailUseSSL",
+        "dict_type": "Boolean",
+        "key": "OutgoingMailServerUseSSL",
+        "default_value": "YES"
+      }
+    ]
+  },
+  {
+    "identifiers": [
+      "com.apple.webClip.managed"
+    ],
+    "knob_name": "WebClipKnobSet",
+    "knob_fields": [
+      {
+        "domain": "url",
+        "dict_type": "String",
+        "key": "URL"
+      },
+      {
+        "domain": "label",
+        "dict_type": "String",
+        "key": "Label"
+      },
+      {
+        "domain": "_icon",
+        "dict_type": "String",
+        "key": "Icon"
+      },
+      {
+        "domain": "isRemovable",
+        "dict_type": "Boolean",
+        "key": "IsRemovable",
+        "default_value": "YES"
+      },
+      {
+        "domain": "precomposed",
+        "dict_type": "Boolean",
+        "key": "Precomposed"
+      },
+      {
+        "domain": "fullScreen",
+        "dict_type": "Boolean",
+        "key": "FullScreen"
+      },
+      {
+        "domain": "icon",
+        "dict_type": "function"
+      },
+      {
+        "domain": "idDidChange",
+        "dict_type": "function"
+      },
+      {
+        "domain": "idReallyDidChange",
+        "dict_type": "function"
+      }
+    ]
+  },
+  {
+    "identifiers": [
+      "com.apple.ldap.account"
+    ],
+    "knob_name": "LdapKnobSet",
+    "knob_fields": [
+      {
+        "domain": "accountDescription",
+        "dict_type": "String",
+        "key": "LDAPAccountDescription",
+        "default_value": "\"_generic_string_LDAP Account\""
+      },
+      {
+        "domain": "accountUserName",
+        "dict_type": "String",
+        "key": "LDAPAccountUserName"
+      },
+      {
+        "domain": "accountPassword",
+        "dict_type": "String",
+        "key": "LDAPAccountPassword"
+      },
+      {
+        "domain": "accountHostName",
+        "dict_type": "String",
+        "key": "LDAPAccountHostName"
+      },
+      {
+        "domain": "useSsl",
+        "dict_type": "Boolean",
+        "key": "LDAPAccountUseSSL",
+        "default_value": "YES"
+      },
+      {
+        "domain": "_ldapSearchSettings",
+        "dict_type": "Array",
+        "key": "LDAPSearchSettings",
+        "default_value": "function"
+      },
+      {
+        "domain": "ldapSearchSettings",
+        "dict_type": "function"
+      },
+      {
+        "domain": "addSearchSetting",
+        "dict_type": "function"
+      },
+      {
+        "domain": "removeSearchSetting",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_ldapSearchSettingsDidChange",
+        "dict_type": "function"
+      },
+      {
+        "domain": "heightObserver",
+        "dict_type": "function"
+      }
+    ]
+  },
+  {
+    "identifiers": [
+      "com.apple.subscribedcalendar.account"
+    ],
+    "knob_name": "CalSubKnobSet",
+    "knob_fields": [
+      {
+        "domain": "description",
+        "dict_type": "String",
+        "key": "SubCalAccountDescription",
+        "default_value": "\"_generic_string_My Subscribed Calendar\""
+      },
+      {
+        "domain": "url",
+        "dict_type": "String",
+        "key": "SubCalAccountHostName"
+      },
+      {
+        "domain": "userName",
+        "dict_type": "String",
+        "key": "SubCalAccountUsername"
+      },
+      {
+        "domain": "password",
+        "dict_type": "String",
+        "key": "SubCalAccountPassword"
+      },
+      {
+        "domain": "useSsl",
+        "dict_type": "Boolean",
+        "key": "SubCalAccountUseSSL",
+        "default_value": "YES"
+      }
+    ]
+  },
+  {
+    "identifiers": [
+      "com.apple.encrypted-profile-service"
+    ],
+    "knob_name": "ScepKnobSet",
+    "knob_fields": [
+      {
+        "domain": "profileObserver",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_payloadContent",
+        "dict_type": "Object",
+        "key": "PayloadContent",
+        "default_value": "function"
+      },
+      {
+        "domain": "url",
+        "dict_type": "String",
+        "key": "URL"
+      },
+      {
+        "domain": "name",
+        "dict_type": "String",
+        "key": "Name"
+      },
+      {
+        "domain": "_subject",
+        "dict_type": "Array",
+        "key": "Subject",
+        "default_value": "function"
+      },
+      {
+        "domain": "_subjectAltName",
+        "dict_type": "Object",
+        "key": "Challenge",
+        "default_value": "challenge"
+      },
+      {
+        "domain": "retries",
+        "dict_type": "Number",
+        "key": "Retries",
+        "default_value": "3"
+      },
+      {
+        "domain": "retryDelay",
+        "dict_type": "Number",
+        "key": "RetryDelay",
+        "default_value": "10"
+      },
+      {
+        "domain": "_CertificateRenewalTimeInterval",
+        "dict_type": "Number",
+        "key": "CertificateRenewalTimeInterval",
+        "default_value": "14"
+      },
+      {
+        "domain": "CertificateRenewalTimeInterval",
+        "dict_type": "function"
+      },
+      {
+        "domain": "keysize",
+        "dict_type": "Number",
+        "key": "Keysize"
+      },
+      {
+        "domain": "keyType",
+        "dict_type": "String",
+        "key": "Key_Type",
+        "default_value": "\"RSA\""
+      },
+      {
+        "domain": "keyUsage",
+        "dict_type": "Number",
+        "key": "Key_Usage"
+      },
+      {
+        "domain": "_fingerprint",
+        "dict_type": "String",
+        "key": "CAFingerprint"
+      },
+      {
+        "domain": "fingerprint",
+        "dict_type": "function"
+      },
+      {
+        "domain": "certDisplayName",
+        "dict_type": "function"
+      },
+      {
+        "domain": "subject",
+        "dict_type": "function"
+      },
+      {
+        "domain": "useAsDigitalSignature",
+        "dict_type": "function"
+      },
+      {
+        "domain": "useForKeyEncipherment",
+        "dict_type": "function"
+      },
+      {
+        "domain": "subjectAltName",
+        "dict_type": "function"
+      },
+      {
+        "domain": "subjectAltNameValue",
+        "dict_type": "function"
+      },
+      {
+        "domain": "ntPrincipalName",
+        "dict_type": "function"
+      }
+    ]
+  },
+  {
+    "identifiers": [
+      "com.apple.apn.managed"
+    ],
+    "knob_name": "ApnKnobSet",
+    "knob_fields": [
+      {
+        "domain": "configuredAPNTypes",
+        "dict_type": "String",
+        "key": "internal_use_flag_configured_apn_types",
+        "default_value": "\"default\""
+      },
+      {
+        "domain": "attachAPNConfig",
+        "dict_type": "Object",
+        "key": "AttachAPN"
+      },
+      {
+        "domain": "APNConfigs",
+        "dict_type": "Array",
+        "key": "APNs"
+      },
+      {
+        "domain": "_getOrSetAttachAPNConfig",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_getOrSetFirstAPNConfig",
+        "dict_type": "function"
+      },
+      {
+        "domain": "attachAPNAccessPointName",
+        "dict_type": "function"
+      },
+      {
+        "domain": "attachAPNAuthenticationType",
+        "dict_type": "function"
+      },
+      {
+        "domain": "attachAPNUsername",
+        "dict_type": "function"
+      },
+      {
+        "domain": "attachAPNPassword",
+        "dict_type": "function"
+      },
+      {
+        "domain": "apnAccessPointName",
+        "dict_type": "function"
+      },
+      {
+        "domain": "apnAuthenticationType",
+        "dict_type": "function"
+      },
+      {
+        "domain": "apnUsername",
+        "dict_type": "function"
+      },
+      {
+        "domain": "apnPassword",
+        "dict_type": "function"
+      },
+      {
+        "domain": "apnProxyServer",
+        "dict_type": "function"
+      },
+      {
+        "domain": "apnProxyPort",
+        "dict_type": "function"
+      }
+    ]
+  },
+  {
+    "identifiers": [
+      "com.apple.eas.account"
+    ],
+    "knob_name": "ExchangeKnobSet",
+    "knob_fields": [
+      {
+        "domain": "accountName",
+        "dict_type": "String",
+        "key": "PayloadDisplayName"
+      },
+      {
+        "domain": "payloadType",
+        "dict_type": "String",
+        "key": "payload_type"
+      },
+      {
+        "domain": "emailAddress",
+        "dict_type": "String",
+        "key": "EmailAddress"
+      },
+      {
+        "domain": "_preventMove",
+        "dict_type": "Boolean",
+        "key": "PreventMove",
+        "default_value": "NO"
+      },
+      {
+        "domain": "allowMove",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_disableMailRecentsSyncing",
+        "dict_type": "Boolean",
+        "key": "disableMailRecentsSyncing",
+        "default_value": "NO"
+      },
+      {
+        "domain": "allowRecentsSyncing",
+        "dict_type": "function"
+      },
+      {
+        "domain": "allowMailDrop",
+        "dict_type": "Boolean",
+        "key": "allowMailDrop",
+        "default_value": "NO"
+      },
+      {
+        "domain": "preventAppSheet",
+        "dict_type": "Boolean",
+        "key": "PreventAppSheet",
+        "default_value": "NO"
+      },
+      {
+        "domain": "host",
+        "dict_type": "String",
+        "key": "Host"
+      },
+      {
+        "domain": "_useSSL",
+        "dict_type": "Boolean",
+        "key": "SSL",
+        "default_value": "YES"
+      },
+      {
+        "domain": "_userName",
+        "dict_type": "String",
+        "key": "UserName"
+      },
+      {
+        "domain": "userName",
+        "dict_type": "function"
+      },
+      {
+        "domain": "realPassword",
+        "dict_type": "String",
+        "key": "Password"
+      },
+      {
+        "domain": "password",
+        "dict_type": "function"
+      },
+      {
+        "domain": "certificateName",
+        "dict_type": "String",
+        "key": "CertificateName"
+      },
+      {
+        "domain": "certificatePassword",
+        "dict_type": "String",
+        "key": "CertificatePassword"
+      },
+      {
+        "domain": "mailNumberOfPastDaysToSync",
+        "dict_type": "Number",
+        "key": "MailNumberOfPastDaysToSync",
+        "default_value": "7"
+      },
+      {
+        "domain": "externalHost",
+        "dict_type": "String",
+        "key": "ExternalHost"
+      },
+      {
+        "domain": "_externalUseSSL",
+        "dict_type": "Boolean",
+        "key": "ExternalSSL",
+        "default_value": "YES"
+      },
+      {
+        "domain": "externalPath",
+        "dict_type": "String",
+        "key": "ExternalPath"
+      },
+      {
+        "domain": "externalPort",
+        "dict_type": "Number",
+        "key": "ExternalPort"
+      },
+      {
+        "domain": "internalPath",
+        "dict_type": "String",
+        "key": "Path"
+      },
+      {
+        "domain": "port",
+        "dict_type": "Number",
+        "key": "Port"
+      },
+      {
+        "domain": "useSSL",
+        "dict_type": "function"
+      },
+      {
+        "domain": "externalUseSSL",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_payloadCertificateUUID",
+        "dict_type": "String",
+        "key": "PayloadCertificateUUID",
+        "default_value": "null"
+      },
+      {
+        "domain": "payloadCertificateUUID",
+        "dict_type": "function"
+      },
+      {
+        "domain": "SMIMEEnabled",
+        "dict_type": "Boolean",
+        "key": "SMIMEEnabled",
+        "default_value": "NO"
+      },
+      {
+        "domain": "enablePerMessageSMIMESwitch",
+        "dict_type": "Boolean",
+        "key": "SMIMEEnablePerMessageSwitch",
+        "default_value": "NO"
+      },
+      {
+        "domain": "_SMIMESigningCertificateUUID",
+        "dict_type": "String",
+        "key": "SMIMESigningCertificateUUID"
+      },
+      {
+        "domain": "SMIMESigningCertificateUUID",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_SMIMEEncryptionCertificateUUID",
+        "dict_type": "String",
+        "key": "SMIMEEncryptionCertificateUUID"
+      },
+      {
+        "domain": "SMIMEEncryptionCertificateUUID",
+        "dict_type": "function"
+      },
+      {
+        "domain": "isUserNameRequired",
+        "dict_type": "function"
+      }
+    ]
+  },
+  {
+    "identifiers": [
+      "com.apple.vpn.managed"
+    ],
+    "knob_name": "VpnKnobSet",
+    "knob_fields": [
+      {
+        "domain": "connectionName",
+        "dict_type": "String",
+        "key": "UserDefinedName"
+      },
+      {
+        "domain": "_connectionType",
+        "dict_type": "String",
+        "key": "VPNType",
+        "default_value": "\"L2TP\""
+      },
+      {
+        "domain": "_PPP",
+        "dict_type": "Object",
+        "key": "PPP",
+        "default_value": "function"
+      },
+      {
+        "domain": "_TokenCard",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_AuthName",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_AuthPassword",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_commRemoteAddress",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_AuthEAPPlugins",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_AuthProtocol",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_CCPMPPE40Enabled",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_CCPMPPE128Enabled",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_CCPEnabled",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_PPPOnDemandEnabled",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_PPPOnDemandMode",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_PPPOnDemandDomains",
+        "dict_type": "function"
+      },
+      {
+        "domain": "defaultIPSec",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_IPSec",
+        "dict_type": "Object",
+        "key": "IPSec",
+        "default_value": "function"
+      },
+      {
+        "domain": "_remoteAddress",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_machineAuthenticationType",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_XAuthName",
+        "dict_type": "function"
+      },
+      {
+        "domain": "XAuthPassword",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_XAuthEnabled",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_sharedSecret",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_localIdentifier",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_localIdentifierType",
+        "dict_type": "function"
+      },
+      {
+        "domain": "credentialForAuthenticating",
+        "dict_type": "function"
+      },
+      {
+        "domain": "includeUserPin",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_XAuthPasswordEncryption",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_IPSecOnDemandEnabled",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_IPSecOnDemandMatchDomainsAlways",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_IPSecOnDemandMatchDomainsNever",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_IPSecOnDemandMatchDomainsOnRetry",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_PPPOnDemandMatchDomainsAlways",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_PPPOnDemandMatchDomainsNever",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_PPPOnDemandMatchDomainsOnRetry",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_OnDemandEnabled",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_OnDemandMatchDomainsAlways",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_OnDemandMatchDomainsNever",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_OnDemandMatchDomainsOnRetry",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_OverridePrimary",
+        "dict_type": "Boolean",
+        "key": "OverridePrimary",
+        "default_value": "YES"
+      },
+      {
+        "domain": "_VPN",
+        "dict_type": "Object",
+        "key": "VPN",
+        "default_value": "function"
+      },
+      {
+        "domain": "_SSLAuthName",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_SSLAuthPassword",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_SSLAuthenticationMethod",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_SSLRemoteAddress",
+        "dict_type": "function"
+      },
+      {
+        "domain": "VPNCredentialForAuthenticating",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_VPNOnDemandEnabled",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_VPNOnDemandMatchDomainsAlways",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_VPNOnDemandMatchDomainsNever",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_VPNOnDemandMatchDomainsOnRetry",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_VPNOnDemandMode",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_VPNOnDemandDomains",
+        "dict_type": "function"
+      },
+      {
+        "domain": "vpnSubType",
+        "dict_type": "String",
+        "key": "VPNSubType"
+      },
+      {
+        "domain": "ikev2RemoteAddress",
+        "dict_type": "String",
+        "key": "ikev2RemoteAddress"
+      },
+      {
+        "domain": "ikev2LocalIdentifier",
+        "dict_type": "String",
+        "key": "ikev2LocalIdentifier"
+      },
+      {
+        "domain": "ikev2RemoteIdentifier",
+        "dict_type": "String",
+        "key": "ikev2RemoteIdentifier"
+      },
+      {
+        "domain": "_ikev2AuthenticationMethod",
+        "dict_type": "String",
+        "key": "ikev2AuthenticationMethod"
+      },
+      {
+        "domain": "ikev2AuthenticationMethod",
+        "dict_type": "function"
+      },
+      {
+        "domain": "ikev2SharedSecret",
+        "dict_type": "String",
+        "key": "ikev2SharedSecret"
+      },
+      {
+        "domain": "_ikev2PayloadCertificateUUID",
+        "dict_type": "String",
+        "key": "ikev2PayloadCertificateUUID"
+      },
+      {
+        "domain": "ikev2PayloadCertificateUUID",
+        "dict_type": "function"
+      },
+      {
+        "domain": "ikev2CertificateType",
+        "dict_type": "String",
+        "key": "ikev2CertificateType"
+      },
+      {
+        "domain": "ikev2AuthName",
+        "dict_type": "String",
+        "key": "ikev2AuthName"
+      },
+      {
+        "domain": "ikev2AuthPassword",
+        "dict_type": "String",
+        "key": "ikev2AuthPassword"
+      },
+      {
+        "domain": "_getOrSetBoolToInt",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_ikev2ExtendedAuthEnabled",
+        "dict_type": "Number",
+        "key": "ikev2ExtendedAuthEnabled"
+      },
+      {
+        "domain": "ikev2ExtendedAuthEnabled",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_ikev2eapAuthenticationMethod",
+        "dict_type": "String",
+        "key": "internal_use_flag_ikev2eapAuthenticationMethod",
+        "default_value": "\"Password\""
+      },
+      {
+        "domain": "ikev2eapAuthenticationMethod",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_ikev2DeadPeerDetectionRate",
+        "dict_type": "String",
+        "key": "ikev2DeadPeerDetectionRate"
+      },
+      {
+        "domain": "_ikev2DisableRedirect",
+        "dict_type": "Number",
+        "key": "ikev2DisableRedirect"
+      },
+      {
+        "domain": "ikev2DisableRedirect",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_ikev2DisableMOBIKE",
+        "dict_type": "Number",
+        "key": "ikev2DisableMOBIKE"
+      },
+      {
+        "domain": "ikev2DisableMOBIKE",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_ikev2UseConfigurationAttributeInternalIPSubnet",
+        "dict_type": "Number",
+        "key": "ikev2UseConfigurationAttributeInternalIPSubnet"
+      },
+      {
+        "domain": "ikev2UseConfigurationAttributeInternalIPSubnet",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_ikev2EnablePFS",
+        "dict_type": "Number",
+        "key": "ikev2EnablePFS"
+      },
+      {
+        "domain": "ikev2EnablePFS",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_ikev2EnableCertificateRevocationCheck",
+        "dict_type": "Number",
+        "key": "ikev2EnableCertificateRevocationCheck"
+      },
+      {
+        "domain": "ikev2EnableCertificateRevocationCheck",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_ikev2NATKeepAliveOffloadEnable",
+        "dict_type": "Number",
+        "key": "ikev2NATKeepAliveOffloadEnable"
+      },
+      {
+        "domain": "ikev2NATKeepAliveOffloadEnable",
+        "dict_type": "function"
+      },
+      {
+        "domain": "ikev2DeadPeerDetectionRate",
+        "dict_type": "function"
+      },
+      {
+        "domain": "ikev2ServerCertificateCommonName",
+        "dict_type": "String",
+        "key": "ikev2ServerCertificateCommonName"
+      },
+      {
+        "domain": "ikev2ServerCertificateIssuerCommonName",
+        "dict_type": "String",
+        "key": "ikev2ServerCertificateIssuerCommonName"
+      },
+      {
+        "domain": "getDefaultSAParamsConfig",
+        "dict_type": "function"
+      },
+      {
+        "domain": "ikev2IKESAEncryptionAlgorithm",
+        "dict_type": "String",
+        "key": "ikev2IKESAEncryptionAlgorithm",
+        "default_value": "\"3DES\""
+      },
+      {
+        "domain": "ikev2IKESAIntegrityAlgorithm",
+        "dict_type": "String",
+        "key": "ikev2IKESAIntegrityAlgorithm"
+      },
+      {
+        "domain": "ikev2IKESADiffieHellmanGroup",
+        "dict_type": "String",
+        "key": "ikev2IKESADiffieHellmanGroup",
+        "default_value": "Admin"
+      },
+      {
+        "domain": "_ikev2IKESALifeTimeInMinutes",
+        "dict_type": "Number",
+        "key": "ikev2IKESALifeTimeInMinutes",
+        "default_value": "1440"
+      },
+      {
+        "domain": "ikev2IKESALifeTimeInMinutes",
+        "dict_type": "function"
+      },
+      {
+        "domain": "ikev2ChildSAEncryptionAlgorithm",
+        "dict_type": "String",
+        "key": "ikev2ChildSAEncryptionAlgorithm",
+        "default_value": "\"3DES\""
+      },
+      {
+        "domain": "ikev2ChildSAIntegrityAlgorithm",
+        "dict_type": "String",
+        "key": "ikev2ChildSAIntegrityAlgorithm"
+      },
+      {
+        "domain": "ikev2ChildSADiffieHellmanGroup",
+        "dict_type": "String",
+        "key": "ikev2ChildSADiffieHellmanGroup",
+        "default_value": "Admin"
+      },
+      {
+        "domain": "_ikev2ChildSALifeTimeInMinutes",
+        "dict_type": "Number",
+        "key": "ikev2ChildSALifeTimeInMinutes",
+        "default_value": "1440"
+      },
+      {
+        "domain": "ikev2ChildSALifeTimeInMinutes",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_ikev2NATKeepAliveInterval",
+        "dict_type": "Number",
+        "key": "ikev2NATKeepAliveInterval",
+        "default_value": "20"
+      },
+      {
+        "domain": "ikev2NATKeepAliveInterval",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_useCommonAlwaysOnTunnelConfig",
+        "dict_type": "Boolean",
+        "key": "internal_use_flag_useCommonAlwaysOnTunnelConfig"
+      },
+      {
+        "domain": "useCommonAlwaysOnTunnelConfig",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_alwaysOn",
+        "dict_type": "Object",
+        "key": "AlwaysOn"
+      },
+      {
+        "domain": "alwaysOnUIToggleEnabled",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnAllowCaptiveWebSheet",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnAllowAllCaptiveNetworkPlugins",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnServiceExceptions",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnAllowedCaptiveNetworkPlugins",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnAllowedCaptiveNetworkPluginsContent",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_updateAlwaysOnAllowedCaptiveNetworkPluginsContent",
+        "dict_type": "function"
+      },
+      {
+        "domain": "addAlwaysOnAllowedCaptiveNetworkPluginsContent",
+        "dict_type": "function"
+      },
+      {
+        "domain": "removeAlwaysOnAllowedCaptiveNetworkPluginsContent",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_getOrSetServiceException",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnVoiceMailServiceException",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnAirDropServiceException",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnAirPrintServiceException",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnAirPlayServiceException",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnTunnelConfigurations",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnCommonTunnelConfig",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnCommonRemoteAddress",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnCommonLocalIdentifier",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnCommonRemoteIdentifier",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnCommonAuthenticationMethod",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnCommonSharedSecret",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnCommonPayloadCertificateUUID",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnCommonCertificateType",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnCommonAuthName",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnCommonAuthPassword",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_packUnpackBoolToInt",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnCommonExtendedAuthEnabled",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_alwaysOnCommoneapAuthenticationMethod",
+        "dict_type": "String",
+        "key": "internal_use_flag_alwaysOnCommoneapAuthenticationMethod",
+        "default_value": "\"Password\""
+      },
+      {
+        "domain": "alwaysOnCommoneapAuthenticationMethod",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnCommonDeadPeerDetectionRate",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnCommonDisableRedirect",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnCommonDisableMOBIKE",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnCommonUseConfigurationAttributeInternalIPSubnet",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnCommonEnablePFS",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnCommonEnableCertificateRevocationCheck",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnCommonNATKeepAliveOffloadEnable",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_alwaysOnCommonNATKeepAliveInterval",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnCommonNATKeepAliveInterval",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnCommonServerCertificateCommonName",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnCommonServerCertificateIssuerCommonName",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnCommonIKESecurityAssociationParameters",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnCommonIKESAEncryptionAlgorithm",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnCommonIKESAIntegrityAlgorithm",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnCommonIKESADiffieHellmanGroup",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_alwaysOnCommonIKESALifeTimeInMinutes",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnCommonIKESALifeTimeInMinutes",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnCommonChildSecurityAssociationParameters",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnCommonchildSAEncryptionAlgorithm",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnCommonchildSAIntegrityAlgorithm",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnCommonChildSADiffieHellmanGroup",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_alwaysOnCommonChildSALifeTimeInMinutes",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnCommonChildSALifeTimeInMinutes",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnCellularTunnelConfig",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnCellularRemoteAddress",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnCellularLocalIdentifier",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnCellularRemoteIdentifier",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnCellularAuthenticationMethod",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnCellularSharedSecret",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnCellularPayloadCertificateUUID",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnCellularCertificateType",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnCellularAuthName",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnCellularAuthPassword",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnCellularExtendedAuthEnabled",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_alwaysOnCellulareapAuthenticationMethod",
+        "dict_type": "String",
+        "key": "internal_use_flag_alwaysOnCellulareapAuthenticationMethod",
+        "default_value": "\"Password\""
+      },
+      {
+        "domain": "alwaysOnCellulareapAuthenticationMethod",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnCellularDeadPeerDetectionRate",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnCellularDisableRedirect",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnCellularDisableMOBIKE",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnCellularUseConfigurationAttributeInternalIPSubnet",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnCellularEnablePFS",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnCellularEnableCertificateRevocationCheck",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnCellularNATKeepAliveOffloadEnable",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_alwaysOnCellularNATKeepAliveInterval",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnCellularNATKeepAliveInterval",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnCellularServerCertificateCommonName",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnCellularServerCertificateIssuerCommonName",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnCellularIKESecurityAssociationParameters",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnCellularIKESAEncryptionAlgorithm",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnCellularIKESAIntegrityAlgorithm",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnCellularIKESADiffieHellmanGroup",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_alwaysOnCellularIKESALifeTimeInMinutes",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnCellularIKESALifeTimeInMinutes",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnCellularChildSecurityAssociationParameters",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnCellularchildSAEncryptionAlgorithm",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnCellularchildSAIntegrityAlgorithm",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnCellularChildSADiffieHellmanGroup",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_alwaysOnCellularChildSALifeTimeInMinutes",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnCellularChildSALifeTimeInMinutes",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnWifiTunnelConfig",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnWifiRemoteAddress",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnWifiLocalIdentifier",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnWifiRemoteIdentifier",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnWifiAuthenticationMethod",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnWifiSharedSecret",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnWifiPayloadCertificateUUID",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnWifiCertificateType",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnWifiAuthName",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnWifiAuthPassword",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnWifiExtendedAuthEnabled",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_alwaysOnWifieapAuthenticationMethod",
+        "dict_type": "String",
+        "key": "internal_use_flag_alwaysOnWifieapAuthenticationMethod",
+        "default_value": "\"Password\""
+      },
+      {
+        "domain": "alwaysOnWifieapAuthenticationMethod",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnWifiDeadPeerDetectionRate",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnWifiDisableRedirect",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnWifiDisableMOBIKE",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnWifiUseConfigurationAttributeInternalIPSubnet",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnWifiEnablePFS",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnWifiEnableCertificateRevocationCheck",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnWifiNATKeepAliveOffloadEnable",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_alwaysOnWifiNATKeepAliveInterval",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnWifiNATKeepAliveInterval",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnWifiServerCertificateCommonName",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnWifiServerCertificateIssuerCommonName",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnWifiIKESecurityAssociationParameters",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnWifiIKESAEncryptionAlgorithm",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnWifiIKESAIntegrityAlgorithm",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnWifiIKESADiffieHellmanGroup",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_alwaysOnWifiIKESALifeTimeInMinutes",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnWifiIKESALifeTimeInMinutes",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnWifiChildSecurityAssociationParameters",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnWifichildSAEncryptionAlgorithm",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnWifichildSAIntegrityAlgorithm",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnWifiChildSADiffieHellmanGroup",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_alwaysOnWifiChildSALifeTimeInMinutes",
+        "dict_type": "function"
+      },
+      {
+        "domain": "alwaysOnWifiChildSALifeTimeInMinutes",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_VendorConfig",
+        "dict_type": "Object",
+        "key": "VendorConfig",
+        "default_value": "function"
+      },
+      {
+        "domain": "realm",
+        "dict_type": "function"
+      },
+      {
+        "domain": "role",
+        "dict_type": "function"
+      },
+      {
+        "domain": "group",
+        "dict_type": "function"
+      },
+      {
+        "domain": "loginGroupOrDomain",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_Proxies",
+        "dict_type": "Object",
+        "key": "Proxies",
+        "default_value": "function"
+      },
+      {
+        "domain": "_HTTPEnable",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_HTTPPort",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_HTTPProxy",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_HTTPProxyPassword",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_HTTPProxyUsername",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_HTTPSEnable",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_HTTPSPort",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_HTTPSProxy",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_ProxyAutoConfigEnable",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_ProxyAutoDiscoveryEnable",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_ProxyAutoConfigURLString",
+        "dict_type": "function"
+      },
+      {
+        "domain": "resetPayloadKeysBasedOnConnectionType",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_setConnectionType",
+        "dict_type": "function"
+      },
+      {
+        "domain": "connectionType",
+        "dict_type": "function"
+      },
+      {
+        "domain": "isAlwaysOn",
+        "dict_type": "function"
+      },
+      {
+        "domain": "server",
+        "dict_type": "function"
+      },
+      {
+        "domain": "userAccount",
+        "dict_type": "function"
+      },
+      {
+        "domain": "password",
+        "dict_type": "function"
+      },
+      {
+        "domain": "SSLAuthenticationMethod",
+        "dict_type": "function"
+      },
+      {
+        "domain": "userAuthenticationType",
+        "dict_type": "function"
+      },
+      {
+        "domain": "sharedSecret",
+        "dict_type": "function"
+      },
+      {
+        "domain": "encryptionLevel",
+        "dict_type": "function"
+      },
+      {
+        "domain": "machineAuthenticationType",
+        "dict_type": "function"
+      },
+      {
+        "domain": "groupName",
+        "dict_type": "function"
+      },
+      {
+        "domain": "useHybridAuthentication",
+        "dict_type": "function"
+      },
+      {
+        "domain": "promptForPassword",
+        "dict_type": "function"
+      },
+      {
+        "domain": "enableVpnOnDemand",
+        "dict_type": "function"
+      },
+      {
+        "domain": "sendAllTraffic",
+        "dict_type": "function"
+      },
+      {
+        "domain": "addMatchDomain",
+        "dict_type": "function"
+      },
+      {
+        "domain": "removeMatchDomain",
+        "dict_type": "function"
+      },
+      {
+        "domain": "matchDomains",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_matchDomainDidChange",
+        "dict_type": "function"
+      },
+      {
+        "domain": "addCustomSSLDataItem",
+        "dict_type": "function"
+      },
+      {
+        "domain": "removeCustomSSLDataItem",
+        "dict_type": "function"
+      },
+      {
+        "domain": "customSSLData",
+        "dict_type": "function"
+      },
+      {
+        "domain": "_customSSLDataDidChange",
+        "dict_type": "function"
+      },
+      {
+        "domain": "proxySetup",
+        "dict_type": "function"
+      },
+      {
+        "domain": "proxyServer",
+        "dict_type": "function"
+      },
+      {
+        "domain": "proxyPort",
+        "dict_type": "function"
+      },
+      {
+        "domain": "proxyUsername",
+        "dict_type": "function"
+      },
+      {
+        "domain": "proxyPassword",
+        "dict_type": "function"
+      },
+      {
+        "domain": "proxyServerUrl",
+        "dict_type": "function"
+      },
+      {
+        "domain": "isUserAccountRequired",
+        "dict_type": "function"
+      }
+    ]
+  },
+  {
+    "identifiers": [
+      "com.apple.DirectoryService.managed"
+    ],
+    "knob_name": "DirectoryKnobSet",
+    "knob_fields": [
+      {
+        "domain": "directoryType",
+        "dict_type": "String",
+        "key": "internal_use_flag_directoryType",
+        "default_value": "\"OD\""
+      },
+      {
+        "domain": "hostname",
+        "dict_type": "String",
+        "key": "HostName"
+      },
+      {
+        "domain": "username",
+        "dict_type": "String",
+        "key": "UserName"
+      },
+      {
+        "domain": "password",
+        "dict_type": "String",
+        "key": "Password"
+      },
+      {
+        "domain": "clientID",
+        "dict_type": "String",
+        "key": "ClientID"
+      },
+      {
+        "domain": "ADOrganizationalUnit",
+        "dict_type": "String",
+        "key": "ADOrganizationalUnit"
+      },
+      {
+        "domain": "ADCreateMobileAccountAtLoginFlag",
+        "dict_type": "Boolean",
+        "key": "ADCreateMobileAccountAtLoginFlag",
+        "default_value": "YES"
+      },
+      {
+        "domain": "ADCreateMobileAccountAtLogin",
+        "dict_type": "Boolean",
+        "key": "ADCreateMobileAccountAtLogin",
+        "default_value": "NO"
+      },
+      {
+        "domain": "ADWarnUserBeforeCreatingMAFlag",
+        "dict_type": "Boolean",
+        "key": "ADWarnUserBeforeCreatingMAFlag",
+        "default_value": "YES"
+      },
+      {
+        "domain": "ADWarnUserBeforeCreatingMA",
+        "dict_type": "Boolean",
+        "key": "ADWarnUserBeforeCreatingMA",
+        "default_value": "NO"
+      },
+      {
+        "domain": "ADForceHomeLocalFlag",
+        "dict_type": "Boolean",
+        "key": "ADForceHomeLocalFlag",
+        "default_value": "YES"
+      },
+      {
+        "domain": "ADForceHomeLocal",
+        "dict_type": "Boolean",
+        "key": "ADForceHomeLocal",
+        "default_value": "YES"
+      },
+      {
+        "domain": "ADUseWindowsUNCPathFlag",
+        "dict_type": "Boolean",
+        "key": "ADUseWindowsUNCPathFlag",
+        "default_value": "YES"
+      },
+      {
+        "domain": "ADUseWindowsUNCPath",
+        "dict_type": "Boolean",
+        "key": "ADUseWindowsUNCPath",
+        "default_value": "YES"
+      },
+      {
+        "domain": "ADMountStyle",
+        "dict_type": "String",
+        "key": "ADMountStyle",
+        "default_value": "\"smb\""
+      },
+      {
+        "domain": "ADDefaultUserShellFlag",
+        "dict_type": "Boolean",
+        "key": "ADDefaultUserShellFlag",
+        "default_value": "YES"
+      },
+      {
+        "domain": "_ADDefaultUserShell",
+        "dict_type": "String",
+        "key": "ADDefaultUserShell",
+        "default_value": "\"/bin/bash\""
+      },
+      {
+        "domain": "ADDefaultUserShell",
+        "dict_type": "function"
+      },
+      {
+        "domain": "ADMapUIDAttributeFlag",
+        "dict_type": "Boolean",
+        "key": "ADMapUIDAttributeFlag",
+        "default_value": "NO"
+      },
+      {
+        "domain": "_ADMapUIDAttribute",
+        "dict_type": "String",
+        "key": "ADMapUIDAttribute",
+        "default_value": "null"
+      },
+      {
+        "domain": "ADMapUIDAttribute",
+        "dict_type": "function"
+      },
+      {
+        "domain": "ADMapGIDAttributeFlag",
+        "dict_type": "Boolean",
+        "key": "ADMapGIDAttributeFlag",
+        "default_value": "NO"
+      },
+      {
+        "domain": "_ADMapGIDAttribute",
+        "dict_type": "String",
+        "key": "ADMapGIDAttribute",
+        "default_value": "null"
+      },
+      {
+        "domain": "ADMapGIDAttribute",
+        "dict_type": "function"
+      },
+      {
+        "domain": "ADMapGGIDAttributeFlag",
+        "dict_type": "Boolean",
+        "key": "ADMapGGIDAttributeFlag",
+        "default_value": "NO"
+      },
+      {
+        "domain": "_ADMapGGIDAttribute",
+        "dict_type": "String",
+        "key": "ADMapGGIDAttribute",
+        "default_value": "null"
+      },
+      {
+        "domain": "ADMapGGIDAttribute",
+        "dict_type": "function"
+      },
+      {
+        "domain": "ADPreferredDCServerFlag",
+        "dict_type": "Boolean",
+        "key": "ADPreferredDCServerFlag",
+        "default_value": "NO"
+      },
+      {
+        "domain": "_ADPreferredDCServer",
+        "dict_type": "String",
+        "key": "ADPreferredDCServer",
+        "default_value": "null"
+      },
+      {
+        "domain": "ADPreferredDCServer",
+        "dict_type": "function"
+      },
+      {
+        "domain": "ADDomainAdminGroupListFlag",
+        "dict_type": "Boolean",
+        "key": "ADDomainAdminGroupListFlag",
+        "default_value": "NO"
+      },
+      {
+        "domain": "_ADDomainAdminGroupList",
+        "dict_type": "Array",
+        "key": "ADDomainAdminGroupList",
+        "default_value": "null"
+      },
+      {
+        "domain": "ADDomainAdminGroupList",
+        "dict_type": "function"
+      },
+      {
+        "domain": "ADAllowMultiDomainAuthFlag",
+        "dict_type": "Boolean",
+        "key": "ADAllowMultiDomainAuthFlag",
+        "default_value": "YES"
+      },
+      {
+        "domain": "ADAllowMultiDomainAuth",
+        "dict_type": "Boolean",
+        "key": "ADAllowMultiDomainAuth",
+        "default_value": "YES"
+      },
+      {
+        "domain": "ADNamespaceFlag",
+        "dict_type": "Boolean",
+        "key": "ADNamespaceFlag",
+        "default_value": "YES"
+      },
+      {
+        "domain": "ADNamespace",
+        "dict_type": "String",
+        "key": "ADNamespace",
+        "default_value": "\"domain\""
+      },
+      {
+        "domain": "ADPacketSignFlag",
+        "dict_type": "Boolean",
+        "key": "ADPacketSignFlag",
+        "default_value": "YES"
+      },
+      {
+        "domain": "ADPacketSign",
+        "dict_type": "String",
+        "key": "ADPacketSign",
+        "default_value": "\"allow\""
+      },
+      {
+        "domain": "ADPacketEncryptFlag",
+        "dict_type": "Boolean",
+        "key": "ADPacketEncryptFlag",
+        "default_value": "YES"
+      },
+      {
+        "domain": "ADPacketEncrypt",
+        "dict_type": "String",
+        "key": "ADPacketEncrypt",
+        "default_value": "\"allow\""
+      },
+      {
+        "domain": "ADRestrictDDNSFlag",
+        "dict_type": "Boolean",
+        "key": "ADRestrictDDNSFlag",
+        "default_value": "NO"
+      },
+      {
+        "domain": "_ADRestrictDDNS",
+        "dict_type": "Array",
+        "key": "ADRestrictDDNS",
+        "default_value": "null"
+      },
+      {
+        "domain": "ADRestrictDDNS",
+        "dict_type": "function"
+      },
+      {
+        "domain": "ADTrustChangePassIntervalDaysFlag",
+        "dict_type": "Boolean",
+        "key": "ADTrustChangePassIntervalDaysFlag",
+        "default_value": "YES"
+      },
+      {
+        "domain": "_ADTrustChangePassIntervalDays",
+        "dict_type": "Number",
+        "key": "ADTrustChangePassIntervalDays",
+        "default_value": "14"
+      },
+      {
+        "domain": "ADTrustChangePassIntervalDays",
+        "dict_type": "function"
+      }
+    ]
+  },
+  {
+    "identifiers": [
+      "com.apple.jabber.account"
+    ],
+    "knob_name": "IchatKnobSet",
+    "knob_fields": [
+      {
+        "domain": "_payloadType",
+        "dict_type": "String",
+        "key": "PayloadType",
+        "default_value": "\"com.apple.jabber.account\""
+      },
+      {
+        "domain": "_JabberAccountDescription",
+        "dict_type": "String",
+        "key": "JabberAccountDescription",
+        "default_value": "\"_generic_string_My Messages Account\""
+      },
+      {
+        "domain": "_JabberHostName",
+        "dict_type": "String",
+        "key": "JabberHostName"
+      },
+      {
+        "domain": "_JabberPortNumber",
+        "dict_type": "Number",
+        "key": "JabberPort"
+      },
+      {
+        "domain": "_JabberUserName",
+        "dict_type": "String",
+        "key": "JabberUserName"
+      },
+      {
+        "domain": "_JabberPassword",
+        "dict_type": "String",
+        "key": "JabberPassword"
+      },
+      {
+        "domain": "_JabberUseSSL",
+        "dict_type": "Boolean",
+        "key": "JabberUseSSL",
+        "default_value": "YES"
+      },
+      {
+        "domain": "_JabberAuthentication",
+        "dict_type": "String",
+        "key": "JabberAuthentication",
+        "default_value": "\"JabberAuthPassword\""
+      },
+      {
+        "domain": "_AIMAccountDescription",
+        "dict_type": "String",
+        "key": "AIMAccountDescription",
+        "default_value": "\"_generic_string_My Messages Account\""
+      },
+      {
+        "domain": "_AIMHostName",
+        "dict_type": "String",
+        "key": "AIMHostName"
+      },
+      {
+        "domain": "_AIMPortNumber",
+        "dict_type": "Number",
+        "key": "AIMPort"
+      },
+      {
+        "domain": "_AIMUserName",
+        "dict_type": "String",
+        "key": "AIMUserName"
+      },
+      {
+        "domain": "_AIMPassword",
+        "dict_type": "String",
+        "key": "AIMPassword"
+      },
+      {
+        "domain": "_AIMUseSSL",
+        "dict_type": "Boolean",
+        "key": "AIMUseSSL",
+        "default_value": "YES"
+      },
+      {
+        "domain": "_AIMAuthentication",
+        "dict_type": "String",
+        "key": "AIMAuthentication",
+        "default_value": "\"AIMAuthPassword\""
+      },
+      {
+        "domain": "isJabber",
+        "dict_type": "function"
+      },
+      {
+        "domain": "payloadType",
+        "dict_type": "function"
+      },
+      {
+        "domain": "description",
+        "dict_type": "function"
+      },
+      {
+        "domain": "serverHost",
+        "dict_type": "function"
+      },
+      {
+        "domain": "serverPort",
+        "dict_type": "function"
+      },
+      {
+        "domain": "loginAs",
+        "dict_type": "function"
+      },
+      {
+        "domain": "accountPassword",
+        "dict_type": "function"
+      },
+      {
+        "domain": "useSSL",
+        "dict_type": "function"
+      },
+      {
+        "domain": "useKerberos5",
+        "dict_type": "function"
+      }
+    ]
+  },
+  {
+    "identifiers": [
+      "com.apple.aim.account"
+    ],
+    "knob_name": "IchatKnobSet",
+    "knob_fields": [
+      {
+        "domain": "_payloadType",
+        "dict_type": "String",
+        "key": "PayloadType",
+        "default_value": "\"com.apple.jabber.account\""
+      },
+      {
+        "domain": "_JabberAccountDescription",
+        "dict_type": "String",
+        "key": "JabberAccountDescription",
+        "default_value": "\"_generic_string_My Messages Account\""
+      },
+      {
+        "domain": "_JabberHostName",
+        "dict_type": "String",
+        "key": "JabberHostName"
+      },
+      {
+        "domain": "_JabberPortNumber",
+        "dict_type": "Number",
+        "key": "JabberPort"
+      },
+      {
+        "domain": "_JabberUserName",
+        "dict_type": "String",
+        "key": "JabberUserName"
+      },
+      {
+        "domain": "_JabberPassword",
+        "dict_type": "String",
+        "key": "JabberPassword"
+      },
+      {
+        "domain": "_JabberUseSSL",
+        "dict_type": "Boolean",
+        "key": "JabberUseSSL",
+        "default_value": "YES"
+      },
+      {
+        "domain": "_JabberAuthentication",
+        "dict_type": "String",
+        "key": "JabberAuthentication",
+        "default_value": "\"JabberAuthPassword\""
+      },
+      {
+        "domain": "_AIMAccountDescription",
+        "dict_type": "String",
+        "key": "AIMAccountDescription",
+        "default_value": "\"_generic_string_My Messages Account\""
+      },
+      {
+        "domain": "_AIMHostName",
+        "dict_type": "String",
+        "key": "AIMHostName"
+      },
+      {
+        "domain": "_AIMPortNumber",
+        "dict_type": "Number",
+        "key": "AIMPort"
+      },
+      {
+        "domain": "_AIMUserName",
+        "dict_type": "String",
+        "key": "AIMUserName"
+      },
+      {
+        "domain": "_AIMPassword",
+        "dict_type": "String",
+        "key": "AIMPassword"
+      },
+      {
+        "domain": "_AIMUseSSL",
+        "dict_type": "Boolean",
+        "key": "AIMUseSSL",
+        "default_value": "YES"
+      },
+      {
+        "domain": "_AIMAuthentication",
+        "dict_type": "String",
+        "key": "AIMAuthentication",
+        "default_value": "\"AIMAuthPassword\""
+      },
+      {
+        "domain": "isJabber",
+        "dict_type": "function"
+      },
+      {
+        "domain": "payloadType",
+        "dict_type": "function"
+      },
+      {
+        "domain": "description",
+        "dict_type": "function"
+      },
+      {
+        "domain": "serverHost",
+        "dict_type": "function"
+      },
+      {
+        "domain": "serverPort",
+        "dict_type": "function"
+      },
+      {
+        "domain": "loginAs",
+        "dict_type": "function"
+      },
+      {
+        "domain": "accountPassword",
+        "dict_type": "function"
+      },
+      {
+        "domain": "useSSL",
+        "dict_type": "function"
+      },
+      {
+        "domain": "useKerberos5",
+        "dict_type": "function"
+      }
+    ]
+  },
+  {
+    "identifiers": [
+      "com.apple.subnet.account"
+    ],
+    "knob_name": "IchatKnobSet",
+    "knob_fields": [
+      {
+        "domain": "_payloadType",
+        "dict_type": "String",
+        "key": "PayloadType",
+        "default_value": "\"com.apple.jabber.account\""
+      },
+      {
+        "domain": "_JabberAccountDescription",
+        "dict_type": "String",
+        "key": "JabberAccountDescription",
+        "default_value": "\"_generic_string_My Messages Account\""
+      },
+      {
+        "domain": "_JabberHostName",
+        "dict_type": "String",
+        "key": "JabberHostName"
+      },
+      {
+        "domain": "_JabberPortNumber",
+        "dict_type": "Number",
+        "key": "JabberPort"
+      },
+      {
+        "domain": "_JabberUserName",
+        "dict_type": "String",
+        "key": "JabberUserName"
+      },
+      {
+        "domain": "_JabberPassword",
+        "dict_type": "String",
+        "key": "JabberPassword"
+      },
+      {
+        "domain": "_JabberUseSSL",
+        "dict_type": "Boolean",
+        "key": "JabberUseSSL",
+        "default_value": "YES"
+      },
+      {
+        "domain": "_JabberAuthentication",
+        "dict_type": "String",
+        "key": "JabberAuthentication",
+        "default_value": "\"JabberAuthPassword\""
+      },
+      {
+        "domain": "_AIMAccountDescription",
+        "dict_type": "String",
+        "key": "AIMAccountDescription",
+        "default_value": "\"_generic_string_My Messages Account\""
+      },
+      {
+        "domain": "_AIMHostName",
+        "dict_type": "String",
+        "key": "AIMHostName"
+      },
+      {
+        "domain": "_AIMPortNumber",
+        "dict_type": "Number",
+        "key": "AIMPort"
+      },
+      {
+        "domain": "_AIMUserName",
+        "dict_type": "String",
+        "key": "AIMUserName"
+      },
+      {
+        "domain": "_AIMPassword",
+        "dict_type": "String",
+        "key": "AIMPassword"
+      },
+      {
+        "domain": "_AIMUseSSL",
+        "dict_type": "Boolean",
+        "key": "AIMUseSSL",
+        "default_value": "YES"
+      },
+      {
+        "domain": "_AIMAuthentication",
+        "dict_type": "String",
+        "key": "AIMAuthentication",
+        "default_value": "\"AIMAuthPassword\""
+      },
+      {
+        "domain": "isJabber",
+        "dict_type": "function"
+      },
+      {
+        "domain": "payloadType",
+        "dict_type": "function"
+      },
+      {
+        "domain": "description",
+        "dict_type": "function"
+      },
+      {
+        "domain": "serverHost",
+        "dict_type": "function"
+      },
+      {
+        "domain": "serverPort",
+        "dict_type": "function"
+      },
+      {
+        "domain": "loginAs",
+        "dict_type": "function"
+      },
+      {
+        "domain": "accountPassword",
+        "dict_type": "function"
+      },
+      {
+        "domain": "useSSL",
+        "dict_type": "function"
+      },
+      {
+        "domain": "useKerberos5",
+        "dict_type": "function"
+      }
+    ]
+  },
+  {
+    "identifiers": [
+      "com.apple.ichatmanaged.account"
+    ],
+    "knob_name": "IchatKnobSet",
+    "knob_fields": [
+      {
+        "domain": "_payloadType",
+        "dict_type": "String",
+        "key": "PayloadType",
+        "default_value": "\"com.apple.jabber.account\""
+      },
+      {
+        "domain": "_JabberAccountDescription",
+        "dict_type": "String",
+        "key": "JabberAccountDescription",
+        "default_value": "\"_generic_string_My Messages Account\""
+      },
+      {
+        "domain": "_JabberHostName",
+        "dict_type": "String",
+        "key": "JabberHostName"
+      },
+      {
+        "domain": "_JabberPortNumber",
+        "dict_type": "Number",
+        "key": "JabberPort"
+      },
+      {
+        "domain": "_JabberUserName",
+        "dict_type": "String",
+        "key": "JabberUserName"
+      },
+      {
+        "domain": "_JabberPassword",
+        "dict_type": "String",
+        "key": "JabberPassword"
+      },
+      {
+        "domain": "_JabberUseSSL",
+        "dict_type": "Boolean",
+        "key": "JabberUseSSL",
+        "default_value": "YES"
+      },
+      {
+        "domain": "_JabberAuthentication",
+        "dict_type": "String",
+        "key": "JabberAuthentication",
+        "default_value": "\"JabberAuthPassword\""
+      },
+      {
+        "domain": "_AIMAccountDescription",
+        "dict_type": "String",
+        "key": "AIMAccountDescription",
+        "default_value": "\"_generic_string_My Messages Account\""
+      },
+      {
+        "domain": "_AIMHostName",
+        "dict_type": "String",
+        "key": "AIMHostName"
+      },
+      {
+        "domain": "_AIMPortNumber",
+        "dict_type": "Number",
+        "key": "AIMPort"
+      },
+      {
+        "domain": "_AIMUserName",
+        "dict_type": "String",
+        "key": "AIMUserName"
+      },
+      {
+        "domain": "_AIMPassword",
+        "dict_type": "String",
+        "key": "AIMPassword"
+      },
+      {
+        "domain": "_AIMUseSSL",
+        "dict_type": "Boolean",
+        "key": "AIMUseSSL",
+        "default_value": "YES"
+      },
+      {
+        "domain": "_AIMAuthentication",
+        "dict_type": "String",
+        "key": "AIMAuthentication",
+        "default_value": "\"AIMAuthPassword\""
+      },
+      {
+        "domain": "isJabber",
+        "dict_type": "function"
+      },
+      {
+        "domain": "payloadType",
+        "dict_type": "function"
+      },
+      {
+        "domain": "description",
+        "dict_type": "function"
+      },
+      {
+        "domain": "serverHost",
+        "dict_type": "function"
+      },
+      {
+        "domain": "serverPort",
+        "dict_type": "function"
+      },
+      {
+        "domain": "loginAs",
+        "dict_type": "function"
+      },
+      {
+        "domain": "accountPassword",
+        "dict_type": "function"
+      },
+      {
+        "domain": "useSSL",
+        "dict_type": "function"
+      },
+      {
+        "domain": "useKerberos5",
+        "dict_type": "function"
+      }
+    ]
+  }
+]
